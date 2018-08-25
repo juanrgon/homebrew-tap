@@ -1,8 +1,8 @@
 class Autojump < Formula
   desc "A cd command that learns - easily navigate directories from the command line"
   homepage "https://github.com/juanrgon/autojump"
-  url "https://github.com/juanrgon/autojump/archive/release-v22.6.0.tar.gz"
-  sha256 "adfeab5e215b756e509fd4d4953575734d3e2b118dbb14f46b0c6583f17e17a0"
+  url "https://github.com/juanrgon/autojump/archive/release-v22.6.1.tar.gz"
+  sha256 "a43fe271785e645cadc3fc4485284b093de7766cb2cab44e499173ec2c728f00"
 
   def install
     system "./install.py", "-d", prefix, "-z", zsh_completion
