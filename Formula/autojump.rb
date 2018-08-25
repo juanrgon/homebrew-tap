@@ -1,7 +1,7 @@
 class Autojump < Formula
   desc "A cd command that learns - easily navigate directories from the command line"
   homepage "https://github.com/juanrgon/autojump"
-  url "https://github.com/juanrgon/autojump/archive/release-v22.6.1.tar.gz"
+  url "https://github.com/juanrgon/autojump/archive/v22.6.1.tar.gz"
   sha256 "a43fe271785e645cadc3fc4485284b093de7766cb2cab44e499173ec2c728f00"
 
   def install
